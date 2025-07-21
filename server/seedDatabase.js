@@ -3,11 +3,16 @@ const Suggestion = require('./models/Suggestion');
 
 // Lista de termos de exemplo (poderia ser um arquivo JSON externo)
 const sampleTerms = [
-  "Apple", "Banana", "Cherry", "Date", "Elderberry", "Fig", "Grape", 
-  "Honeydew", "Iceberg Lettuce", "Jackfruit", "Kiwi", "Lemon", "Mango",
-  "Nectarine", "Orange", "Papaya", "Quince", "Raspberry", "Strawberry",
-  "Tomato", "Ugli Fruit", "Vanilla Bean", "Watermelon", "Xigua", "Yellow Squash",
-  "Zucchini", "Apricot", "Blueberry", "Cantaloupe", "Dragonfruit"
+  "Abóbora", "Alface", "Berinjela", "Beterraba", "Brócolis",
+  "Cebola", "Cenoura", "Chuchu", "Couve", "Espinafre",
+  "Pepino", "Pimentão", "Rabanete", "Repolho", "Tomate",
+  "Caderno", "Caneta", "Celular", "Computador", "Garrafa",
+  "Livro", "Mochila", "Óculos", "Panela", "Relógio",
+  "Sapato", "Teclado", "Telefone", "Ventilador", "Xícara",
+  "Advogado", "Bombeiro", "Cozinheiro", "Dentista", "Enfermeiro",
+  "Engenheiro", "Médico", "Professor", "Programador", "Veterinário",
+  "Cachorro", "Gato", "Elefante", "Girafa", "Leão",
+  "Macaco", "Papagaio", "Tartaruga", "Tigre", "Zebra"
 ];
 
 async function seedDB() {
