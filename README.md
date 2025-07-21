@@ -35,15 +35,7 @@
 
 ## Problemas Encontrados
 
-1. **CORS**:
-   - Resolvido com middleware no backend
-   - Configuração adequada no Apollo Client
-
-2. **Debounce**:
-   - Implementação manual com setTimeout/clearTimeout
-   - Alternativa seria usar lodash.debounce
-
-3. **Docker Networking**:
+1. **Docker Networking**:
    - Nomes de serviço como hostnames (graphql, server, mongo)
    - Portas expostas corretamente
 
@@ -51,14 +43,10 @@
 
 1. **Testes**:
    - Unitários para funções de highlight e filtro
-   - E2E para fluxo de autocomplete
 
 2. **Features**:
-   - Cache de sugestões no Apollo Client
+   - Cache de sugestões
    - Histórico de buscas recentes
-   - Internacionalização
 
 3. **Performance**:
-   - CDN para assets estáticos
    - Otimização de queries MongoDB
-   - SSR para melhor SEO
